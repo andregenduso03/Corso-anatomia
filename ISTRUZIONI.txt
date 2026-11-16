@@ -1,0 +1,20 @@
+ANATOMIA & PT — INSTALLAZIONE
+
+Questa cartella contiene la versione installabile del tuo corso:
+- index.html: corso originale
+- manifest.webmanifest: nome e icone dell'app
+- sw.js: cache per l'apertura offline
+- icons/: icone per la schermata Home
+
+IMPORTANTE
+Per installarla come app su iPhone e usare la modalità offline, il sito deve essere pubblicato su un indirizzo HTTPS. Aprire index.html direttamente dall'app File non basta per installare una PWA.
+
+PUBBLICAZIONE SEMPLICE CON GITHUB PAGES
+1. Crea o accedi a un account GitHub.
+2. Crea un nuovo repository pubblico, ad esempio "anatomia-pt".
+3. Carica tutti i file e la cartella icons mantenendo la stessa struttura.
+4. In Settings > Pages, scegli "Deploy from a branch", seleziona "main" e "/ (root)", poi salva.
+5. Attendi la pubblicazione e apri l'indirizzo HTTPS generato su Safari dell'iPhone.
+6. In Safari: Condividi > Aggiungi alla schermata Home > Aggiungi.
+
+I progressi dei quiz restano salvati nel browser sul dispositivo. Non cancellare i dati di Safari se vuoi conservarli. La prima apertura online serve a caricare la versione offline.
